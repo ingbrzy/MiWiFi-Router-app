@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
     <string name="abc_action_bar_home_description">Navigovat domů</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -490,7 +490,7 @@ To může ovlivnit výkon rueteru, zkuste vymazat mezipaměť."</string>
     <string name="client_detail_info_connection_zigbee">Zigbee</string>
     <string name="client_detail_info_invalid_nick_name">Neplatné jméno</string>
     <string name="client_detail_info_ip_address">IP adresa</string>
-    <string name="client_detail_info_list_caption">STATUS</string>
+    <string name="client_detail_info_list_caption">STAV</string>
     <string name="client_detail_info_mac_address">MAC adresa</string>
     <string name="client_detail_menu_add_device_wifi_to_white_list">Přidat do vyjímek</string>
     <string name="client_detail_menu_add_device_wifi_to_white_list_description">Zařízení by mělo být připojeno</string>
@@ -550,8 +550,8 @@ To může ovlivnit výkon rueteru, zkuste vymazat mezipaměť."</string>
     <string name="client_qos_choose_priority">Priorita</string>
     <string name="client_qos_custom_band_max_value">Nastavení šířky pásma ručně</string>
     <string name="client_qos_device_list">Zařízení</string>
-    <string name="client_qos_download_band">Ke stažení šířky pásma</string>
-    <string name="client_qos_download_band_x">Stažení šířky pásma: %s</string>
+    <string name="client_qos_download_band">Bandwidth stahování</string>
+    <string name="client_qos_download_band_x">Bandwidth stahování: %s</string>
     <string name="client_qos_download_speed">Maximální rychlost stahování</string>
     <string name="client_qos_guest_limit_download">Rychlost stahování</string>
     <string name="client_qos_guest_limit_upload">Rychlost nahrávání</string>
@@ -577,7 +577,7 @@ Můžete řídit šířku pásma ručně v menu Nástroje"</string>
     <string name="client_qos_mode_priority_description">Přístroje s vyšší prioritou budou mít vyšší sířku pásma</string>
     <string name="client_qos_prompt_on_speed_inaccurate">" "<u>Manuální nastavení</u>" "</string>
     <string name="client_qos_prompt_simple_mode">Systém bude řídit přidelení šířky pásma napříč všemi zařízeními zajišťující lepší konektivitu</string>
-    <string name="client_qos_requires_enable_qos">Tuto funkci zapnout na kartě Zapnutí první.</string>
+    <string name="client_qos_requires_enable_qos">Povolte tuto funkci v záložce s doplňky.</string>
     <string name="client_qos_smartly_adjust_speed">QoS</string>
     <string name="client_qos_smartly_adjust_speed_description">Omezit množství šířky pásma, které může každé zařízení spotřebovat</string>
     <string name="client_qos_speed_mode">Správa šířky pásma</string>
@@ -633,7 +633,7 @@ Ujistěte se že je zpnuté 2.4G a zkuste to znovu."</string>
     <string name="client_relay_wifi_source_strength_normal">Síla signálu: Normalní</string>
     <string name="client_relay_wifi_source_title">Signál sítě</string>
     <string name="client_relay_wifi_source_unknown">- - -</string>
-    <string name="client_relay_work_mode_description">Nastaví název sítě jako zdroj signálu a přepne na Wi-Fi roaming</string>
+    <string name="client_relay_work_mode_description">Nastavte stejný název síetě jko na zdrojovém routru a přepněte na Wi-Fi roaming název sítě jako zdroj signálu a přepne na Wi-Fi roaming</string>
     <string name="client_relay_work_mode_title">Wi-Fi roaming</string>
     <string name="client_request_device_allow">Povolit</string>
     <string name="client_request_device_allow_success">%s žádost přijata</string>
@@ -674,11 +674,11 @@ Ujistěte se že je zpnuté 2.4G a zkuste to znovu."</string>
     <string name="common_first_step">Krok 1</string>
     <string name="common_hint">Pozor</string>
     <string name="common_hours">h</string>
-    <string name="common_hours_ago">Před hod</string>
+    <string name="common_hours_ago">hod před</string>
     <string name="common_i_know_button">OK</string>
     <string name="common_ignore">Ignorovat</string>
     <string name="common_input_not_regular">Neplatný vstup</string>
-    <string name="common_input_too_long">"Její délka nemí překročit %d znakú"</string>
+    <string name="common_input_too_long">"Její délka nemí překročit %d znaků"</string>
     <string name="common_invalid_operation">"Nelze dokončit operaci"</string>
     <string name="common_just_now">Právě teď</string>
     <string name="common_know_button">OK</string>
@@ -814,7 +814,7 @@ Zálohujte soubory a vyměnte pevný disk co nejdříve."</string>
     <string name="diskbackup_source_size_calculate_error">"Nelze spočítat velikost souborů"</string>
     <string name="diskbackup_start">Zálohovat nyní</string>
     <string name="diskbackup_target_not_exist">"Nelze nalézt umístění záloh"</string>
-    <string name="diskbackup_target_not_writable">"Nelze zapisovat do záložního umístění"</string>
+    <string name="diskbackup_target_not_writable">"Není možné zapisovat na zálohovací úložiště"</string>
     <string name="diskbackup_timer">Plánovat zálohování</string>
     <string name="diskbackup_timer_choose_tips">Nastavit čas</string>
     <string name="diskbackup_timer_disable">Vypnuto</string>
@@ -827,7 +827,7 @@ Zálohujte soubory a vyměnte pevný disk co nejdříve."</string>
     <string name="diskdoctor_status_ok">Pevný disk je v dobrém stavu</string>
     <string name="dongle_failed">Dongle neni správně připojen</string>
     <string name="download_accelerate_count">Pokusím se:</string>
-    <string name="download_accelerate_month_count">Zbývajíci cesty</string>
+    <string name="download_accelerate_month_count">Zůstavající cesty</string>
     <string name="download_add_content">Přidat zdroj</string>
     <string name="download_add_task_error">"Nelze přidat úkol"</string>
     <string name="download_apk_install_download_start">Stahování začalo</string>
@@ -880,7 +880,7 @@ Zálohujte soubory a vyměnte pevný disk co nejdříve."</string>
     <string name="download_pause_task_error">"Nelze pozastavit stahování"</string>
     <string name="download_resume_task_error">"Nelze pokračovat ve stahování"</string>
     <string name="download_router_pick_back_to_mobile">Synchronizace automaticky ukončena ke stažení do telefonu</string>
-    <string name="download_router_pick_back_to_mobile_desc">Synchronizace automaticky stahuje videa na telefonu</string>
+    <string name="download_router_pick_back_to_mobile_desc">Synchronizace stahnute videa do telefonu automaticky</string>
     <string name="download_router_pick_title">Vyberte router</string>
     <string name="download_setting">Stahování</string>
     <string name="download_setting_hint">Spustit %1$s %2$s | Pause %3$s</string>
@@ -895,7 +895,7 @@ Zálohujte soubory a vyměnte pevný disk co nejdříve."</string>
     <string name="download_status_failed_for_no_space">Stažení se nezdařilo, neni dostatek úložného prostoru</string>
     <string name="download_status_pause">Pozastaveno</string>
     <string name="download_status_waiting">Čekání</string>
-    <string name="download_sync_submitted">Předložen úklo</string>
+    <string name="download_sync_submitted">Úloha odeslaná</string>
     <string name="download_tools_resourcesearch_title">Vyhledat</string>
     <string name="download_total_download_speed">Rychlost stahování: %s</string>
     <string name="download_url_copied">URL zkopírováno</string>
@@ -1013,7 +1013,7 @@ Zálohujte soubory a vyměnte pevný disk co nejdříve."</string>
     <string name="file_folder_children">%s položky</string>
     <string name="file_gallery_mode_folder">Seřadit podle složek</string>
     <string name="file_gallery_mode_timeline">Seřadit podle data</string>
-    <string name="file_gallery_my_video">Má přední video kamera</string>
+    <string name="file_gallery_my_video">Moje videa z kamery</string>
     <string name="file_gallery_view_mode">Režim zobrazení</string>
     <string name="file_image_empty">Žádné fotky</string>
     <string name="file_image_explorer_already_original">"To je originální obraz"</string>
@@ -1047,7 +1047,7 @@ Velikost: %4$s"</string>
     <string name="file_menu_set_share">"Nesdílejte"</string>
     <string name="file_menu_sort">Seřadit podle</string>
     <string name="file_menu_transfer_manger">Správa převodu</string>
-    <string name="file_menu_tunnel_test">Tunnel zkouška</string>
+    <string name="file_menu_tunnel_test">Tunnel test</string>
     <string name="file_menu_upload_to_current_path">Přenos souborů</string>
     <string name="file_menu_upload_to_router">Synchronizace s routerem</string>
     <string name="file_mobile_backup_desc">Zálohování fotografií v ruteru</string>
@@ -1241,7 +1241,7 @@ Prohlížet soubory pomocí Nástroje"</string>
     <string name="guest_wifi_load_success">Název sítě: %s</string>
     <string name="guest_wifi_loading_data">Získávání dat…</string>
     <string name="guest_wifi_more_clear">"Vyčistit návštěvnícké záznamy"</string>
-    <string name="guest_wifi_more_help">Shládnout video ukázku</string>
+    <string name="guest_wifi_more_help">Shlédnout video ukázku</string>
     <string name="guest_wifi_password_description">Wi-Fi výžaduje nové heslo pro připojení</string>
     <string name="guest_wifi_password_tip">V součastné době se může každý přístroj připojit bez hesla. Toto lze změnit v Nastavení.</string>
     <string name="guest_wifi_password_title">Pravidelné šifrování</string>
@@ -1346,7 +1346,7 @@ Příjemce by měl příjmout Mi Router aplikaci"</string>
     <string name="load_more_failed">"Nelze načíst"</string>
     <string name="location_disabled_tip">Služby určení polohy jsou vypnuty</string>
     <string name="location_enable_button">Zapnout</string>
-    <string name="location_enable_message">Zapnutím lokalizační služby získat přesné doporučení.</string>
+    <string name="location_enable_message">Povolte služby určovaní polohy pre lepší doporučaní.</string>
     <string name="location_enable_tip">"Znovu nezobrazovát"</string>
     <string name="location_enable_title">Zapnutí služby lokalizace polohy</string>
     <string name="location_request_failed">"Nelze získat informace o poloze"</string>
@@ -1420,7 +1420,7 @@ Příjemce by měl příjmout Mi Router aplikaci"</string>
     <string name="media_video_empty">"Nelze najít videa"</string>
     <string name="mobile_backup_enable">Záloha připojených zařízení</string>
     <string name="movie_space_info">K dispozici %1$s | Celkem %2$s</string>
-    <string name="network_optimize_add_reboot_timer_alert">Mužete změnít automatické restartování v \"Restartovat časovač\" oddíle</string>
+    <string name="network_optimize_add_reboot_timer_alert">Mužete změnít automatické restartování v \"Časovač restartování\" oddíle</string>
     <string name="network_optimize_cancel">Zrušit</string>
     <string name="network_optimize_cpu_memory_desc">Zkuste restartovat zarízení a zapnout optimalizaci</string>
     <string name="network_optimize_cpu_memory_title">Procesor/Paměť</string>
@@ -1448,11 +1448,11 @@ Příjemce by měl příjmout Mi Router aplikaci"</string>
     <string name="network_optimize_optimize_waiting">Čekejte</string>
     <string name="network_optimize_optimized">Optimalizované</string>
     <string name="network_optimize_optimizing">Urychlení…</string>
-    <string name="network_optimize_qos_desc">Turn on QoS to manage allocation device by device</string>
+    <string name="network_optimize_qos_desc">Povolte QoS pro správu zařízení</string>
     <string name="network_optimize_qos_title">Přidělení šířky pásma</string>
     <string name="network_optimize_reboot_exit_alert">Probíhá optimalizace, přesto ukončit?</string>
     <string name="network_optimize_rescan">Zkontrolovat znovu</string>
-    <string name="network_optimize_result">%1$s Položky mohou být optimalizovány, aby byla posílena rychlost %3$s</string>
+    <string name="network_optimize_result">&lt;font color=%1$s>%2$d&lt;/font> Položky mohou být optimalizovány, aby byla posílena rychlost &lt;font color=%3$s>%4$d%%&lt;/font></string>
     <string name="network_optimize_scan_cancel">Zrušit</string>
     <string name="network_optimize_scan_cpu_memory_step1">Získávání informací o využití Procesoru/Paměti…</string>
     <string name="network_optimize_scan_download_step1">Kontrola úlohy stahování…</string>
@@ -1505,7 +1505,7 @@ Příjemce by měl příjmout Mi Router aplikaci"</string>
     <string name="new_feature_switch_desc">"Tady je něco, co udělá vaší síť ještě chytřejší"</string>
     <string name="new_feature_switch_ok">Přidat aplikaci</string>
     <string name="no_offline_download_avaliable_router">Žádné routery pro off-line stahování</string>
-    <string name="notification_setting_not_distrub_description">Tiché oznámení když příjde v době nerušít </string>
+    <string name="notification_setting_not_distrub_description">Ztišit upozornění v době nerušít </string>
     <string name="notification_setting_not_distrub_setting">V tento čas nerušit</string>
     <string name="notification_setting_not_distrub_time_end">Do: %s</string>
     <string name="notification_setting_not_distrub_time_start">Od: %s</string>
@@ -1616,7 +1616,7 @@ Příjemce by měl příjmout Mi Router aplikaci"</string>
     <string name="rating_dlg_accept">Hodnocení</string>
     <string name="rating_dlg_deny">Ne, děkuji</string>
     <string name="rating_dlg_text_1">Stejně jako naše aplikace?</string>
-    <string name="rating_dlg_text_2">"Jste chvíli, teď řekněte nám, co si myslíte."</string>
+    <string name="rating_dlg_text_2">"Máte chvíli, řekněte nám teď, co si myslíte."</string>
     <string name="reboot_desc">Všechna zařízení budou dočasně odpojena, když se router restartuje. Možná budete muset připojit některá zařízení ručně poté, co router dokončí bootování.</string>
     <string name="reboot_now">Restartovat teď</string>
     <string name="reboot_router_rebooting_message">Zařízení se automaticky připojí poté, co router dokončí bootování.</string>
@@ -1671,7 +1671,7 @@ pevného disku rueteru. Tuto akci nelze vrátit zpět!"</string>
     <string name="reminder_offline_tip">Běžné problémy s připojením:</string>
     <string name="reminder_offline_title">Nelze se připojit k routeru"</string>
     <string name="reminder_repair_failed">"Nemohlo opravit"</string>
-    <string name="reminder_repair_success">Zafixovaný</string>
+    <string name="reminder_repair_success">Opravené</string>
     <string name="reminder_safe_mode">Router je spuštěn v nouzovém režimu</string>
     <string name="reminder_switch_wifi">Přepnout Wi-Fi do %s</string>
     <string name="reminder_switch_wifi_24G">2.4G siť je lepší pro pronikéní zdí</string>
@@ -1748,7 +1748,7 @@ Většina funkcí aplikací routeru nelze použít, když probíhá skenování.
     <string name="router_system_program">Klíčové systémové prvky</string>
     <string name="routing_feedback">Párování routeru</string>
     <string name="send_log">Odeslat chybový protokol</string>
-    <string name="setting_about">O</string>
+    <string name="setting_about">O ruteru</string>
     <string name="setting_about_title">O rueteru</string>
     <string name="setting_admin">Heslo</string>
     <string name="setting_backup_detail">Zobrazit nastavení zálohování routeru</string>
@@ -1856,7 +1856,7 @@ Většina funkcí aplikací routeru nelze použít, když probíhá skenování.
     <string name="statistics_storage_usage_other">Ostatní</string>
     <string name="statistics_storage_usage_photo">Fotografie</string>
     <string name="statistics_storage_usage_photo_description">%d fotografií</string>
-    <string name="statistics_storage_usage_timemachine_backup">Time Machine</string>
+    <string name="statistics_storage_usage_timemachine_backup">Stroj času</string>
     <string name="statistics_storage_usage_video">Videa</string>
     <string name="statistics_storage_usage_video_description">%d položek</string>
     <string name="statistics_storage_usage_xunlei_crystal">Xunlei</string>
@@ -1936,7 +1936,7 @@ v obsahu routeru"</string>
     <string name="tool_goto_market">Získat více doplňků</string>
     <string name="tool_goto_market_new">Nové doplňky k dispozici</string>
     <string name="tool_has_update_title">Aktualizace k dispozici</string>
-    <string name="tool_indicator_exp">Lab</string>
+    <string name="tool_indicator_exp">Experimentalně</string>
     <string name="tool_indicator_has_update">Aktualizace k dispozici</string>
     <string name="tool_indicator_new">Nový</string>
     <string name="tool_indicator_recommend">Nejnovější</string>
@@ -1989,7 +1989,7 @@ Naposledy aktualizováno: %3$s"</string>
     <string name="tool_router_download_timer">Plánovaná stahování</string>
     <string name="tool_router_feedback">Řešení problémů</string>
     <string name="tool_router_feedback_desc">Vyhledejte router</string>
-    <string name="tool_router_reboot_timer">Restartovat časovač</string>
+    <string name="tool_router_reboot_timer">Časovač restartování</string>
     <string name="tool_router_reboot_timer_desc">Časový plán pro restartování rueteru</string>
     <string name="tool_router_reboot_timer_switch_hint">Restartovat rueter v naplánovaném čase</string>
     <string name="tool_router_setting">Nastavení</string>
@@ -2064,7 +2064,7 @@ Naposledy aktualizováno: %3$s"</string>
     <string name="tool_security_web_firewall_header_title">Blokováno %1$d škodlivé vebové stránky</string>
     <string name="tool_security_web_firewall_item_desc">Detekovat malware na webových stránkéch automaticky</string>
     <string name="tool_security_web_firewall_item_title">Firewall webových stranek</string>
-    <string name="tool_security_web_firewall_log_sub_info">"%1$s | %2$s's přístupové zařízení na nebezpečné webové servery"</string>
+    <string name="tool_security_web_firewall_log_sub_info">"%1$s | %2$s's zařízení bylo připojené ke škodlivým stránkam"</string>
     <string name="tool_security_wifi_block_count">Blokováno %1$s pokusy o připojení</string>
     <string name="tool_security_wifi_block_item_desc">Chránit vaši síť před rušením</string>
     <string name="tool_security_wifi_block_item_title">Firewall</string>
@@ -2075,12 +2075,12 @@ Naposledy aktualizováno: %3$s"</string>
     <string name="tool_taskmanager_close_samba_warning">Pokud vypnete Samba, odpovídající doplněk se vypne také.</string>
     <string name="tool_taskmanager_confirm_close_xunlei">"Nebudete moci používat funkce spojené se stahováním po vypnutí Xunlei stahování. 
  Vypnout?"</string>
-    <string name="tool_taskmanager_confirm_finish">"%1$s pokud ho chcete znovu používat, zapněte ho v \"Tools-Routing status\". 
+    <string name="tool_taskmanager_confirm_finish">"%1$s když to chcete použít znovu, povolte to v \"Nástroje-Stav směrování\". 
  Konec \"%2$s\"?"</string>
     <string name="tool_taskmanager_confirm_finish_warning">Po ukončení %1$s, tato funkce přestane fungovat.</string>
     <string name="tool_taskmanager_cpu">Procesor</string>
     <string name="tool_taskmanager_cpu_usage_rate">"Využití
-Procesoru"</string>
+procesoru"</string>
     <string name="tool_taskmanager_desc">"Správa úkolu rueteru"</string>
     <string name="tool_taskmanager_finished">Hotovo</string>
     <string name="tool_taskmanager_load_too_heigh">Router běží pomalu, procesor je zaneprázdněn</string>
@@ -2100,13 +2100,13 @@ paměti"</string>
     <string name="tool_taskmanager_task_open_success">Úloha začala úspěšně</string>
     <string name="tool_taskmanager_task_opening">Zahájení %s…</string>
     <string name="tool_taskmanager_title_taskinfo">Podrobnosti o %s</string>
-    <string name="tool_taskmanager_xunlei_app_desc">This is a built-in download engine. Xunlei members can boost download speed and enjoy better download experience.</string>
-    <string name="tool_tianyi_accelerate">Zrychlení Telecom Tianyi</string>
+    <string name="tool_taskmanager_xunlei_app_desc">Toto je integrovaný nástroj stahování. Xunlei uživatelé si můžou zvýšit rychlost stahování.</string>
+    <string name="tool_tianyi_accelerate">Telecom Tianyi zrychlení</string>
     <string name="tool_tianyi_accelerate_desc">Speed boost</string>
     <string name="tool_time_setting">Plánované</string>
     <string name="tool_time_setting_end">Na</string>
     <string name="tool_time_setting_end_shutdown">Zapnout</string>
-    <string name="tool_time_setting_end_wifi">Zapnout Wi-Fi na</string>
+    <string name="tool_time_setting_end_wifi">Zapnout Wi-Fi v</string>
     <string name="tool_time_setting_no_day_select">Vyberte alespoň 1 den</string>
     <string name="tool_time_setting_pause_download">Pozastavit</string>
     <string name="tool_time_setting_repeat">Opakovat</string>
@@ -2114,16 +2114,16 @@ paměti"</string>
     <string name="tool_time_setting_setting">Plánované</string>
     <string name="tool_time_setting_start">Od</string>
     <string name="tool_time_setting_start_shutdown">Vypnout</string>
-    <string name="tool_time_setting_start_wifi">Turn Wi-Fi off</string>
+    <string name="tool_time_setting_start_wifi">Vypněte Wi-Fi v</string>
     <string name="tool_timer_add_timer">Přidat čas</string>
     <string name="tool_timer_custom">Vlastní</string>
     <string name="tool_timer_delete">Odstranit plánovaný čas</string>
     <string name="tool_timer_everyday">Každodenní</string>
     <string name="tool_timer_exceed_max">Můžete naplánovat až 9 časovačů</string>
     <string name="tool_timer_loading_config">Získávání informací…</string>
-    <string name="tool_timer_loading_config_fail">"Couldn't get settings"</string>
-    <string name="tool_timer_once">Jakmile</string>
-    <string name="tool_timer_router_reboot">Restartovat rueter na %1$s</string>
+    <string name="tool_timer_loading_config_fail">"Nebylo možné načíst nastavení"</string>
+    <string name="tool_timer_once">Jednou</string>
+    <string name="tool_timer_router_reboot">Restartovat rueter v %1$s</string>
     <string name="tool_timer_router_shutdown">Zapnout v %1$s, Vypnout v %2$s</string>
     <string name="tool_timer_saving">Ukládání nastavení…</string>
     <string name="tool_timer_saving_fail">"Nelze nastavit časovač"</string>
@@ -2166,9 +2166,9 @@ paměti"</string>
     <string name="tool_update_week_report">Týdenní statistiky</string>
     <string name="tool_update_week_report_desc">Zobrazit týdenní provozní statistiky k rueteru každý pátek</string>
     <string name="tool_upgrade">Aktualizovat</string>
-    <string name="tool_uploading">Nahrávání instalační programu…</string>
+    <string name="tool_uploading">Nahrávání instalačního programu…</string>
     <string name="tool_week_usage_experience_improve_agree">Připojit</string>
-    <string name="tool_week_usage_experience_improve_enable">"You should join User Experience Program to turn on weekly stats. While you're using this feature, some productivity-related data will be collected anonymously. This information is not related to your personal data."</string>
+    <string name="tool_week_usage_experience_improve_enable">"Měli by jste se připojit k Uživatelské zkošenosti s programem. Po dobu používání této funkce budou odesílány anonimní statistiky. Tyto informace nejsou ve spojení s vašimi osobními údaji."</string>
     <string name="tool_week_usage_experience_improve_enable_fail">"Nelze připojit do Uživatelské zkošenosti s programem"</string>
     <string name="tool_week_usage_experience_improve_enable_success">Připojení do Uživatelské zkošenosti s programem, spustit kontrolu příští týden</string>
     <string name="tool_week_usage_experience_improve_enable_title">Smluvní podmínky</string>
@@ -2283,7 +2283,7 @@ Nechceme shromažďovat žádné osobní údaje nebo uživatelská data (kontakt
     <string name="vpn_server_config_delete">Odstranit konfiguraci</string>
     <string name="vpn_server_config_empty">"Nemůže být prázdný"</string>
     <string name="vpn_server_config_error_wrong_ip_format">Neplatná IP adresa</string>
-    <string name="vpn_server_list">Server seznam</string>
+    <string name="vpn_server_list">Seznam serverů</string>
     <string name="vpn_server_name">Jméno</string>
     <string name="vpn_server_passwd">Heslo</string>
     <string name="vpn_server_proto_type">Protokol</string>
@@ -2321,18 +2321,18 @@ Nechceme shromažďovat žádné osobní údaje nebo uživatelská data (kontakt
     <string name="yeelight_romantic">Romantika</string>
     <string name="yeelight_sun">Sluneční svit</string>
     <string name="yeelight_warf">Vlny</string>
-    <string name="cube_ptr_hours_ago"> před hodinamy</string>
+    <string name="cube_ptr_hours_ago"> před hodinami</string>
     <string name="cube_ptr_last_update">poslední aktualizace: </string>
     <string name="cube_ptr_minutes_ago"> před minutami</string>
-    <string name="cube_ptr_pull_down">Pull Down</string>
-    <string name="cube_ptr_pull_down_to_refresh">Pull Down to Refresh</string>
+    <string name="cube_ptr_pull_down">Potáhněte dolů</string>
+    <string name="cube_ptr_pull_down_to_refresh">Potáhněte dolů pro obnovení</string>
     <string name="cube_ptr_refresh_complete">Aktualizováno.</string>
     <string name="cube_ptr_refreshing">Aktualizace...</string>
     <string name="cube_ptr_release_to_refresh">Release To Refresh</string>
     <string name="cube_ptr_seconds_ago"> před sekundami</string>
     <string name="acc_app_exit_dialog_auto_tip">V budoucnu zcela automaticky</string>
     <string name="acc_app_exit_end_btn">Úplně</string>
-    <string name="acc_app_exit_msg">Stále běží, zpomalit rychlost telefonu %1$d%% %2$d</string>
+    <string name="acc_app_exit_msg">&lt;font color=\"#666666\" >Stále běží, zpomalit rychlost telefonu &lt;/font>&lt;font color=\"#4185f2\" >%1$d%%&lt;/font>&lt;font color=\"#666666\" >，减少待机时间&lt;/font>&lt;font color=\"#4185f2\" >%2$d分钟。&lt;/font></string>
     <string name="acc_app_exit_result">Bylo to zcela ukončeno%1$s</string>
     <string name="acc_game_item_action_acc_and_open">Spusťte akceleraci aplikací</string>
     <string name="acc_game_item_action_open">Spustit aplikaci</string>
@@ -2342,7 +2342,7 @@ Nechceme shromažďovat žádné osobní údaje nebo uživatelská data (kontakt
     <string name="acc_string_0">0</string>
     <string name="acc_string_B">B</string>
     <string name="acc_time_unit">minuta</string>
-    <string name="acc_window_progress">koncovka (%1$d/%2$d)</string>
+    <string name="acc_window_progress">koncovka（%1$d/%2$d）</string>
     <string name="accessibility_service_description">"Druhý krok: Otevřete horní pravý přepínač
 
 Při zapnutí telefonu můžete použít silné zrychlení, rychlou aplikaci pro odinstalování a mnoho dalších pokročilých funkcí.
@@ -2364,7 +2364,7 @@ Po zapnutí, dostanete tipy na rizika ochrany osobních údajů. Otevřete jaký
     <string name="antivirus_continue_scan">Skenování nedokončeno</string>
     <string name="antivirus_continue_scan_danger">Nalezeno bezpečnostní riziko</string>
     <string name="antivirus_danger_page_vice_text">To doporučuje okamžité ošetření</string>
-    <string name="antivirus_empty_trust_app">Bílí list je prázdný</string>
+    <string name="antivirus_empty_trust_app">Bílý list je prázdný</string>
     <string name="antivirus_find_danger_text">Zjištěno riziko</string>
     <string name="antivirus_find_many_dangers">Nalezeno% s programem riziko</string>
     <string name="antivirus_find_safe_text">Zabezpečení</string>
@@ -2397,7 +2397,6 @@ Po zapnutí, dostanete tipy na rizika ochrany osobních údajů. Otevřete jaký
     <string name="app_prevent_wake_count_msg">Ochrana pro vás zachytitila%1$dkrát probuzeno</string>
     <string name="app_prevent_wake_delay">Tyto aplikace byly povoleny probudit</string>
     <string name="app_prevent_wake_title">Aplikace probudit</string>
-    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="awake_app_unknown">Neznámá aplikace</string>
     <string name="cleanacc_add_white_list">Bílá listina</string>
     <string name="cleanacc_app_cache_name">Mezipaměť aplikace</string>
@@ -2413,13 +2412,13 @@ Po zapnutí, dostanete tipy na rizika ochrany osobních údajů. Otevřete jaký
     <string name="cleanacc_home_page_clean_finish_word">Musíte odstranit odpad%s</string>
     <string name="cleanacc_home_page_cleaning_word">Můžete pokračovat v uklidu odpadu%s</string>
     <string name="cleanacc_home_page_scan_finish_word">Vyčištění odpadu%s</string>
-    <string name="cleanacc_home_page_scanning_word">Naskenovaný spam %s</string>
+    <string name="cleanacc_home_page_scanning_word">Naskenovaný spam%s</string>
     <string name="cleanacc_module_name">Vyčištění akcelerace</string>
     <string name="cleanacc_nouse_apk_name">Neužitečný balíček</string>
     <string name="cleanacc_protected_title">Vyčištěním zrychlete bílou listinu</string>
     <string name="cleanacc_scan_default_text">Inicializace……</string>
     <string name="cleanacc_scan_finish_word">Nalezeno %1$s spamu, %2$d proces na pozadí</string>
-    <string name="cleanacc_scanning_pre_word">Skenování: </string>
+    <string name="cleanacc_scanning_pre_word">Skenování:</string>
     <string name="cleanacc_system_cache_name">Systémová paměť</string>
     <string name="cleanacc_system_trash_name">Systémový odpad</string>
     <string name="cleanacc_trash_files_name">Nevyžádané soubory</string>
@@ -2523,7 +2522,7 @@ Jisti, že chcete zavřít?"</string>
     <string name="superacc_game_acc_open_header">Při spuštění aplikace, automatická rychlost 50%</string>
     <string name="superacc_game_acc_title">Akcelerace aplikací</string>
     <string name="superacc_low_power_monitor_msg">Telefon před úplným vybitím! Klikněte sem se prodlouží pohotovostní doba%1$dminut</string>
-    <string name="superacc_monitor_game_apps_result">Baidu mobilní stráže &amp; má pro vás Rychlost</string>
+    <string name="superacc_monitor_game_apps_result">Baidu mobilní stráže má pro vás Rychlost %1$d%%</string>
     <string name="superacc_reguide_for_low_power">Tato funkce vyžaduje otevřený Baidu mobilní stráže silnou akceleraci</string>
     <string name="superacc_screen_unlock_acc_toast">Řešení pro rychlou obrazovku%1$d%%</string>
     <string name="superacc_screen_unlock_entend_time">Zámek úspora obrazovka</string>
