@@ -15,7 +15,7 @@
     <string name="abc_searchview_description_submit">Odeslat dotaz</string>
     <string name="abc_searchview_description_voice">Hlasové vyhledávání</string>
     <string name="abc_shareactionprovider_share_with">Sdílet s</string>
-    <string name="abc_shareactionprovider_share_with_application">Sdílet s aplikací</string>
+    <string name="abc_shareactionprovider_share_with_application">Sdílet s aplikací %s</string>
     <string name="abc_toolbar_collapse_description">Chyba</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="ERROR_DATACENTER_DISK_TASK_HAS_START">Úloha již začala</string>
@@ -62,7 +62,7 @@
     <string name="backup_cancel_rebackup">Zrušit zálohu</string>
     <string name="backup_cannot_browse_folder_for_not_backup_yet">"Toto zařízení nebylo zálohováno"</string>
     <string name="backup_complete">Zálohování kompletní</string>
-    <string name="backup_complete_notification_text_named_x">Fotografie zálohovat do Mi Routeru</string>
+    <string name="backup_complete_notification_text_named_x">Fotografie %s zálohovat do Mi Routeru</string>
     <string name="backup_complete_notification_text_photo_x">Zálohovat fotografie</string>
     <string name="backup_complete_notification_text_photo_x_video_x" formatted="false">Zálohování fotek a videí</string>
     <string name="backup_complete_notification_text_video_x">Zálohovat videa</string>
@@ -292,7 +292,7 @@
     <string name="block_whether_block_device_x">Blokovat %s?</string>
     <string name="block_whether_block_devices">Blokování těchto zařízení pro připojení k síti?</string>
     <string name="block_whether_unblock_device">Odblokovat tento přístroj?</string>
-    <string name="block_whether_unblock_device_x">Umožnit pro připojení k síti?</string>
+    <string name="block_whether_unblock_device_x">Umožnit %s pro připojení k síti?</string>
     <string name="block_white_devices_list_empty">Žádné vyjímky</string>
     <string name="block_white_devices_list_title">Vyjímky</string>
     <string name="block_wifi_access">Blokovat zařízení…</string>
@@ -410,7 +410,7 @@ Chyba síťového připojení poskytovatele. Od svého provozovatele zjistěte p
     <string name="channel_select_optimizing_done">Snížený %d%%</string>
     <string name="channel_select_optimizing_done_tips">Již používá Wi-Fi kanál s minimálním rušením</string>
     <string name="channel_select_optimizing_tips">Toto trvá asi minutu</string>
-    <string name="channel_select_optimizing_tips_tips">Připojení k internetu může být dočasně přerušeno během tohoto procesu</string>
+    <string name="channel_select_optimizing_tips_tips">Připojení k internetu může být během tohoto procesu dočasně přerušeno</string>
     <string name="channel_select_searching">Kontrola…</string>
     <string name="channel_select_searching_tip">Kontrola rušení sítě…</string>
     <string name="channel_select_start_optimize">Zkontrolujte zda nejsou lepší kanály</string>
@@ -633,7 +633,7 @@ Ujistěte se že je zpnuté 2.4G a zkuste to znovu."</string>
     <string name="client_relay_wifi_source_strength_normal">Síla signálu: Normalní</string>
     <string name="client_relay_wifi_source_title">Signál sítě</string>
     <string name="client_relay_wifi_source_unknown">- - -</string>
-    <string name="client_relay_work_mode_description">Nastavte stejný název síetě jko na zdrojovém routru a přepněte na Wi-Fi roaming název sítě jako zdroj signálu a přepne na Wi-Fi roaming</string>
+    <string name="client_relay_work_mode_description">Nastavte stejný název síetě jako na zdrojovém routru a přepněte na Wi-Fi roaming název sítě jako zdroj signálu a přepne na Wi-Fi roaming</string>
     <string name="client_relay_work_mode_title">Wi-Fi roaming</string>
     <string name="client_request_device_allow">Povolit</string>
     <string name="client_request_device_allow_success">%s žádost přijata</string>
@@ -760,7 +760,7 @@ Ujistěte se že je zpnuté 2.4G a zkuste to znovu."</string>
     <string name="disk_doctor_disk_smart_scan_fail">"Nelze získat S.M.A.R.T info"</string>
     <string name="disk_doctor_disk_smart_warning">"Aktualně čeká na počet sektorů: %1$s
 
-Jedná se o klíčový prvek S.M.A.R.T info. Pokud je tato hodnota višší než 0, znamená to, že existuji sektory, které nemohou být na vašem disku obnoveny.Čím višší je tato hodnota, tím tím více je na vašem disku poškozených souborů. "</string>
+Jedná se o klíčový prvek S.M.A.R.T info. Pokud je tato hodnota vyšší než 0, znamená to, že existuji sektory, které nemohou být na vašem disku obnoveny.Čím vyšší je tato hodnota, tím tím více je na vašem disku poškozených souborů. "</string>
     <string name="disk_doctor_disk_status_danger">Nebezpečí</string>
     <string name="disk_doctor_disk_status_danger_desc">"Na pevném disku zjištěna abnormální aktivita
 Zálohujte soubory a vyměnte pevný disk co nejdříve."</string>
@@ -1205,7 +1205,7 @@ Prohlížet soubory pomocí Nástroje"</string>
     <string name="file_usb_import_success">Soubory iportovány do routeru</string>
     <string name="file_video_empty">Žádná videa</string>
     <string name="file_volume_internal">Interní paměť</string>
-    <string name="file_volume_list_item_label">%1$s (%2$s není k dispozici)</string>
+    <string name="file_volume_list_item_label">%1$s (%2$s je k dispozici)</string>
     <string name="file_volume_local_external">SD karta</string>
     <string name="file_volume_local_internal">Telefon</string>
     <string name="file_volume_privace">Soukromá složka</string>
@@ -1355,7 +1355,7 @@ Příjemce by měl příjmout Mi Router aplikaci"</string>
     <string name="login_account_password_title">Přihlaste se ke svámu Mi účtu</string>
     <string name="login_account_prompt">Uživatelské jméno</string>
     <string name="login_auto_bind_failed">"Nelze párovat router"</string>
-    <string name="login_auto_bind_waiting">Párováví…</string>
+    <string name="login_auto_bind_waiting">Párování…</string>
     <string name="login_bootstrap">Nastavení nového routeru</string>
     <string name="login_captcha_code_fail">Zadejte kód zobrazený na obrázku vpravo</string>
     <string name="login_captcha_code_hint">Zadejte kód zobrazený na obrázku vpravo</string>
@@ -1389,7 +1389,7 @@ Příjemce by měl příjmout Mi Router aplikaci"</string>
     <string name="main_add_relay">Přidat Mi Repeater</string>
     <string name="main_add_router">Přidat router</string>
     <string name="main_auto_switch_after_accept_invitation">Schváleno! Přepnout do %s</string>
-    <string name="main_auto_switch_after_bind">Schváleno, přejít k%s</string>
+    <string name="main_auto_switch_after_bind">Schváleno, přejít k %s</string>
     <string name="main_auto_switch_after_demote_self">Správce odstraněn. Přepnutím do %s</string>
     <string name="main_auto_switch_after_unbind">Odebráno! Přepnutím do %s.</string>
     <string name="main_client">Mi Router</string>
@@ -1640,10 +1640,10 @@ pevného disku rueteru. Tuto akci nelze vrátit zpět!"</string>
     <string name="relay_bad_siginal_hint1">Aktuální pozice a signál by mohl být lepší</string>
     <string name="relay_bad_siginal_hint2">Přemístit zařízení do oblasti s lepším signálem</string>
     <string name="relay_check_upgrade">Obnovit</string>
-    <string name="relay_connect_first_step">"Připojit My Repeater do USB portu Mi routeru;"</string>
+    <string name="relay_connect_first_step">"Připojit Mi Repeater do USB portu Mi routeru;"</string>
     <string name="relay_connect_second_step">Pokud začne svítít modře, byl Mi Repeater úspěšně spárován;</string>
     <string name="relay_connect_steps_prompt">Pro připojení postupujte podle následujících kroků</string>
-    <string name="relay_connect_third_step">Připojte My Repeater do USB portu</string>
+    <string name="relay_connect_third_step">Připojte Mi Repeater do USB portu</string>
     <string name="relay_connect_third_step_tip">"(Ujistěte se, že je Mi Repeater dostatečně blízko k routeru, aby bylo možné detekovat signál routeru)"</string>
     <string name="relay_connect_title">Přidat Mi Repeater</string>
     <string name="relay_lost_hint1">"Nelze se připojit k přístroji"</string>
@@ -2114,7 +2114,7 @@ paměti"</string>
     <string name="tool_time_setting_setting">Plánované</string>
     <string name="tool_time_setting_start">Od</string>
     <string name="tool_time_setting_start_shutdown">Vypnout</string>
-    <string name="tool_time_setting_start_wifi">Vypněte Wi-Fi v</string>
+    <string name="tool_time_setting_start_wifi">Vypnutí Wi-Fi v</string>
     <string name="tool_timer_add_timer">Přidat čas</string>
     <string name="tool_timer_custom">Vlastní</string>
     <string name="tool_timer_delete">Odstranit plánovaný čas</string>
@@ -2240,7 +2240,7 @@ Uživatelských zkošenosti s programem"</string>
  
 Nechceme shromažďovat žádné osobní údaje nebo uživatelská data (kontakty, historie volání, atd.) jako součást programu. Shromažďujeme statistické údaje o tom, jak (a jak často) které funkce používá  Mi Router.
  
- 1. Ruhodnout se potvrdit nebo odejít
+ 1. Rozhodnout se potvrdit nebo odejít
  Můžete si zvolit potvrdit nebo odejít z programu, kdykoliv v Nastavení.
  
  2. Záměrem tohoto programu
@@ -2260,7 +2260,7 @@ Nechceme shromažďovat žádné osobní údaje nebo uživatelská data (kontakt
     <string name="user_experience_improve_plan">Uživatelské zkošenosti s programem</string>
     <string name="user_experience_improve_plan_details_title">Zobrazit detaily</string>
     <string name="user_experience_improve_quit">Odejít</string>
-    <string name="user_experience_improve_short_desc">Nápověda Xiaomi zlepšit tento výrobek zasláním údajů a statistiky. [Další informace]</string>
+    <string name="user_experience_improve_short_desc">Nápověda Xiaomi zlepší tento výrobek zasláním údajů a statistiky. [Další informace]</string>
     <string name="videos_group_name_x_num_x">%1$d videí</string>
     <string name="vpn_address_list">Seznam adres</string>
     <string name="vpn_connect_fail">"Nelze se připojit"</string>
@@ -2270,7 +2270,7 @@ Nechceme shromažďovat žádné osobní údaje nebo uživatelská data (kontakt
     <string name="vpn_device_list_add_from_device_list">Přidat zařízení</string>
     <string name="vpn_device_list_add_from_mac">Přidat Mac adresu</string>
     <string name="vpn_filter">Chytrá VPN</string>
-    <string name="vpn_filter_by_device">Limit šířky pásmapro jednotlivá zařízení</string>
+    <string name="vpn_filter_by_device">Limit šířky pásma pro jednotlivá zařízení</string>
     <string name="vpn_filter_by_url">Limit šíšky pásma podle VPN IP adresy</string>
     <string name="vpn_filter_device_list_title">Vyberte položky</string>
     <string name="vpn_filter_mac_add_mac">Přidat Mac adresu</string>
@@ -2348,7 +2348,7 @@ Nechceme shromažďovat žádné osobní údaje nebo uživatelská data (kontakt
 Při zapnutí telefonu můžete použít silné zrychlení, rychlou aplikaci pro odinstalování a mnoho dalších pokročilých funkcí.
 
 Tipy:
-Po zapnutí, dostanete tipy na rizika ochrany osobních údajů. Otevřete jakýmikoliv doplňkovými službami systém bude mít tento rutinní výzev. Baidu mobilní stráže prostřednictvím tohoto závazku nebude shromažďovat žádné informace o uživateli služby."</string>
+Po zapnutí, dostanete tipy na rizika ochrany osobních údajů. Otevřete jakýmikoliv doplňkovými službami systém bude mít tuto rutinní výzvu. Baidu mobilní stráže prostřednictvím tohoto závazku nebude shromažďovat žádné informace o uživateli služby."</string>
     <string name="add_white_list">Přidat bílou listinu</string>
     <string name="antivirus_auto_update_to_new">Automatická aktualizace virové databáze</string>
     <string name="antivirus_auto_update_to_new_summary">Automatické aktualizace databáze virů při připojení wifi</string>
@@ -2366,7 +2366,7 @@ Po zapnutí, dostanete tipy na rizika ochrany osobních údajů. Otevřete jaký
     <string name="antivirus_danger_page_vice_text">To doporučuje okamžité ošetření</string>
     <string name="antivirus_empty_trust_app">Bílý list je prázdný</string>
     <string name="antivirus_find_danger_text">Zjištěno riziko</string>
-    <string name="antivirus_find_many_dangers">Nalezeno% s programem riziko</string>
+    <string name="antivirus_find_many_dangers">Nalezeno %s programem riziko</string>
     <string name="antivirus_find_safe_text">Zabezpečení</string>
     <string name="antivirus_finish_scan">Mobilní telefony jsou v bezpečí</string>
     <string name="antivirus_finish_scan_danger">Našli bezpečnostní riziko</string>
@@ -2388,7 +2388,7 @@ Po zapnutí, dostanete tipy na rizika ochrany osobních údajů. Otevřete jaký
     <string name="antivirus_update_toast_net_problem">Síťová anomálie</string>
     <string name="antivirus_update_toast_no_up">Virová databáze je aktuální</string>
     <string name="antivirus_update_toast_suc">Aktualizace virové databáze je úspěšná, je aktuální</string>
-    <string name="app_acc_share_msg">Našel jsem dobrou věc~Jakákoliv aplikace muže spustit rychlost o 50%, sledovat videa hrát hry žádné další karty, vyzkoušejte si na~ http://shoujiweishi.baidu.com</string>
+    <string name="app_acc_share_msg">Našel jsem dobrou věc~Jakákoliv aplikace muže spustit rychlost o 50%, sledovat videa, hrát hry žádné další karty, vyzkoušejte si na~ http://shoujiweishi.baidu.com</string>
     <string name="app_awake_warn_toast">%1$s probudit na pozadí %2$s</string>
     <string name="app_list_empty_tips">Váš telefon ještě nenašel uplatnění</string>
     <string name="app_name">Svc</string>
@@ -2407,13 +2407,13 @@ Po zapnutí, dostanete tipy na rizika ochrany osobních údajů. Otevřete jaký
     <string name="cleanacc_below_size_desc_text">To doporučuje okamžité ošetření</string>
     <string name="cleanacc_cancel_btn_word">Zrušit</string>
     <string name="cleanacc_clean_btn_word">Klíčová čištění(%s)</string>
-    <string name="cleanacc_clean_finish_with_brain_word">Operace byla úspěšná, jak uvolnit%s</string>
-    <string name="cleanacc_clean_finish_without_brain_word">Operace byla úspěšná, jak uvolnit</string>
+    <string name="cleanacc_clean_finish_with_brain_word">Operace byla úspěšná, jak uvolnit (%s)</string>
+    <string name="cleanacc_clean_finish_without_brain_word">Operace byla úspěšná, jak uvolnit %s</string>
     <string name="cleanacc_home_page_clean_finish_word">Musíte odstranit odpad%s</string>
-    <string name="cleanacc_home_page_cleaning_word">Můžete pokračovat v uklidu odpadu%s</string>
-    <string name="cleanacc_home_page_scan_finish_word">Vyčištění odpadu%s</string>
-    <string name="cleanacc_home_page_scanning_word">Naskenovaný spam%s</string>
-    <string name="cleanacc_module_name">Vyčištění akcelerace</string>
+    <string name="cleanacc_home_page_cleaning_word">Můžete pokračovat v uklidu odpadu %s</string>
+    <string name="cleanacc_home_page_scan_finish_word">Vyčištění odpadu %s</string>
+    <string name="cleanacc_home_page_scanning_word">Naskenovaný spam %s</string>
+    <string name="cleanacc_module_name">Vyčištění akcelerace %s</string>
     <string name="cleanacc_nouse_apk_name">Neužitečný balíček</string>
     <string name="cleanacc_protected_title">Vyčištěním zrychlete bílou listinu</string>
     <string name="cleanacc_scan_default_text">Inicializace……</string>
@@ -2430,7 +2430,7 @@ Po zapnutí, dostanete tipy na rizika ochrany osobních údajů. Otevřete jaký
     <string name="complete_btn1">Kompletní</string>
     <string name="complete_btn2">Hotovo</string>
     <string name="disable_prevent_wake_ok_msg">Tuto funkci vypnout</string>
-    <string name="disable_prevent_wake_switch_msg">"Aplikace jinými aplikacemi tajně začala, systémových zdrojů, což má za následek zrychlení účinku není zřejmé, telefon karta je pomalá.
+    <string name="disable_prevent_wake_switch_msg">"Aplikace jinými aplikacemi tajně začala, systémových zdrojů, což má za následek že zrychlení účinku není zřejmé, telefon karta je pomalá.
 
 Jisti, že chcete zavřít?"</string>
     <string name="force_stop1">Vnutit zastavení</string>
@@ -2476,7 +2476,7 @@ Jisti, že chcete zavřít?"</string>
     <string name="pref_superacc_setting_close_talk">Zavřít náhodné čištění</string>
     <string name="pref_superacc_setting_close_talk_btn">Zavřít TTS</string>
     <string name="pref_superacc_setting_close_talk_btn_closed">Zavřeno TTS</string>
-    <string name="pref_superacc_setting_close_talk_des">Pokud problém nastane po náhodné čtení výkonná otevřená služba je způsobeno TTS(Text-to-Speech output)Baidu mobilní stráže a konflikt, uzavřený TTS 即可。</string>
+    <string name="pref_superacc_setting_close_talk_des">Pokud problém nastane po náhodném čtení, Výkonná otevřená služba je způsobena TTS(Text-to-Speech output)Baidu mobilní stráže a konflikt, uzavřený TTS</string>
     <string name="pref_superacc_setting_open_acc">Otevřete své telefonní silný službu</string>
     <string name="prevent_status_allow">Povolit</string>
     <string name="prevent_status_delay">Zachycení</string>
@@ -2485,7 +2485,7 @@ Jisti, že chcete zavřít?"</string>
     <string name="prevent_wake_guide_download_title">Zakázat aplikace probudit</string>
     <string name="setting_about_wnd_title">na</string>
     <string name="setting_cleanacc_protected_null">Žádná aplikace není třeba čistit</string>
-    <string name="setting_cleanacc_protected_num">%dAplikace nemusí být čištěny</string>
+    <string name="setting_cleanacc_protected_num">%d Aplikace nemusí být čištěny</string>
     <string name="setting_divider_cleanacc">Vyčištění akcelerace</string>
     <string name="setting_divider_common_cfg">Obecné nastavení</string>
     <string name="setting_divider_safe_scan">Bezpečnostní skenování</string>
